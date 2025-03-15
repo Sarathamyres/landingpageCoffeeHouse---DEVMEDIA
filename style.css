@@ -158,9 +158,8 @@ h2 {
   padding: 0 20px;
 }
 .bannerHour h2 {
-  position: absolute;
-  left: 35%;
-  font-size: 18px;
+  margin: 0 auto;
+  text-align: center
 }
 .bannerHour .list-bannerHour {
   max-width: 768px;
