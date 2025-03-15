@@ -21,8 +21,8 @@ a {
 }
 header {
   background-color: #604829;
-  width: 100%;
-  position: fixed;
+  max-width: 100%;
+  position: sticky;
   z-index: 1;
 }
 .header-container {
@@ -181,7 +181,7 @@ h2 {
   font-weight: bold;
 }
 .bannerHour .list-bannerHour li div {
-  width: 70%;
+  width: 50%;
   height: 1px;
   position: absolute;
   left: 0;
@@ -209,7 +209,7 @@ footer .container a {
 footer img {
   position: absolute;
   right: 50px;
-  bottom: 50px;
+  bottom: 60px;
   width: 60px;
   height: 60px;
 }
